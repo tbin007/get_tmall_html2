@@ -45,8 +45,8 @@ def get_img(h, n):   # 筛选出需要的内容
 
 
 def mkdir(path):
-    isExists = os.path.exists(path) # 判断是否存在
-    if not isExists:    # 如果不存在就创建目录
+    is_exists = os.path.exists(path) # 判断是否存在
+    if not is_exists:    # 如果不存在就创建目录
         os.makedirs(path)   # 创建目录
         print(path + "创建目录成功")
         result = path + "创建目录成功"
